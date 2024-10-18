@@ -61,3 +61,36 @@ header h1 {
     margin: 0;
     font-family: 'Arial', sans-serif;
 }
+
+/* Styling nav */
+nav {
+    width: 25%;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0.5em 0;
+}
+
+/* Styling link dan efek hover di navigasi */
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    background-color: #0066cc;
+    color: #fff;
+}

@@ -376,3 +376,11 @@ aside ul li:hover i {
     color: white; 
 }
 
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    background-color: #0066cc;
+    color: #fff;
+}
+

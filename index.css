@@ -224,3 +224,50 @@ nav ul li a:hover {
     text-align: center; 
     width: 80%; 
 }
+
+/* Styling untuk kartu publikasi */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    margin: 0 0 10px;
+    color: #0066cc;
+    font-size: 1.5em;
+}
+
+.card .date {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.card a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}

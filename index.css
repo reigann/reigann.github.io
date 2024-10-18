@@ -384,3 +384,38 @@ footer {
     color: #fff;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    header {
+        width: 100%;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: nowrap; 
+        align-items: flex-start; 
+        height: auto; 
+    }
+
+    nav {
+        width: 25%; 
+        height: 100vh; 
+        margin: 0;
+        padding: 1em;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); 
+    }
+
+    section {
+        width: 75%; 
+        padding: 1em;
+        margin-bottom: 20px;
+    }
+
+    aside {
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+
+    footer {
+        width: 100%; 
+    }
+}

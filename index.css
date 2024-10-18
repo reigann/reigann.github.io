@@ -271,3 +271,29 @@ nav ul li a:hover {
 .card a:hover {
     text-decoration: underline;
 }
+
+/* Styling untuk skill bars */
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill h3 {
+    margin-bottom: 5px;
+    color: #0066cc;
+    font-size: 1.2em;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    border-radius: 8px;
+    height: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.skill-level {
+    background-color: #0066cc;
+    height: 100%;
+    border-radius: 8px;
+    transition: width 0.5s ease;
+}

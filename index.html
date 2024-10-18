@@ -137,7 +137,7 @@
                 </div>
             </div>
             </section>
-            
+
             <aside>
                 <h3>Hobi</h3>
                 <ul>
@@ -153,5 +153,17 @@
                 <p>Twitter: @reiganchenartha_ | FB: reiganchenartha_ | Instagram: @reiganchenartha_</p>
                 <p>© Copyright 2024. All Rights Reserved</p>
             </footer>
+
+            <script>
+                function showContent(sectionId) {  // Sembunyikan semua konten
+                    const contents = document.querySelectorAll('.content');
+                    contents.forEach(content => {
+                        content.style.display = 'none';
+                    });
+                    
+                    document.getElementById(sectionId).style.display = 'block'; // Tampilkan konten yang dipilih
+                }
+            </script>
+
 </body>
 </html>

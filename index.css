@@ -94,3 +94,48 @@ nav ul li a:hover {
     background-color: #0066cc;
     color: #fff;
 }
+
+/* Styling untuk timeline */
+.timeline {
+    position: relative;
+    margin: 20px 0;
+    padding: 20px 0;
+    list-style-type: none;
+    border-left: 4px solid #0066cc; /* Garis vertikal di tengah */
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 40px; /* Tambahkan padding di sebelah kiri untuk memberi ruang pada garis vertikal */
+    margin-bottom: 20px;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #0066cc;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timeline-year {
+    font-weight: bold;
+    color: #0066cc;
+    margin-bottom: 5px;
+}
+
+.timeline-content {
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content h3 {
+    margin: 0;
+    font-size: 1.2em;
+}

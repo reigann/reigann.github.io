@@ -184,3 +184,43 @@ nav ul li a:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
     transition: box-shadow 0.3s ease;
 }
+
+/* Styling untuk daftar pengalaman */
+.experience-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.experience-list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 100%; 
+}
+
+.experience-list li i {
+    color: #0066cc;
+    margin-bottom: 10px;
+    font-size: 24px; 
+}
+
+.experience-list li strong {
+    font-weight: bold;
+    color: #0066cc;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.experience-list li p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: center; 
+    width: 80%; 
+}

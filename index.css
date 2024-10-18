@@ -139,3 +139,48 @@ nav ul li a:hover {
     margin: 0;
     font-size: 1.2em;
 }
+
+/* Styling untuk container biodata */
+#biodata {
+    background-color: #f9f9f9; /* Warna latar belakang lembut */
+    padding: 20px;
+    border-radius: 10px; /* Membuat sudut melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    width: 100%; /* Lebar penuh */
+    max-width: 500px; /* Maksimal lebar agar tetap rapi */
+    margin: 20px auto; /* Agar berada di tengah */
+}
+
+/* Styling untuk heading biodata */
+#biodata h2 {
+    color: #0066cc; /* Warna teks heading */
+    text-align: center; /* Teks di tengah */
+    margin-bottom: 20px;
+    font-size: 1.8em; /* Ukuran teks */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styling untuk isi biodata */
+.bio p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333; 
+    font-family: 'Arial', sans-serif;
+}
+
+/* Membuat label (NIM, Nama, dll.) lebih tegas */
+.bio p strong {
+    color: #0066cc; 
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.bio p + p {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+#biodata:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+    transition: box-shadow 0.3s ease;
+}

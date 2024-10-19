@@ -79,21 +79,49 @@ nav ul li {
     margin: 0.5em 0;
 }
 
+/* Styling nav */
+nav {
+    width: 25%;
+    background-color: #fff;
+    padding: 1.5em; 
+    border-radius: 10px; 
+    transition: background-color 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #e0e0e0; 
+}
+
+/* Styling list ul dalam nav */
+nav ul {
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+}
+
+/* Styling setiap item nav */
+nav ul li {
+    margin-bottom: 15px; 
+}
+
 /* Styling link dan efek hover di navigasi */
 nav ul li a {
     text-decoration: none;
     color: #333;
     display: block;
-    padding: 10px;
+    padding: 12px 15px; 
     transition: background-color 0.3s ease, color 0.3s ease;
-    border-radius: 4px;
+    border-radius: 6px; 
     font-weight: 500;
+    background-color: #f7f7f7; 
 }
 
+/* Efek hover */
 nav ul li a:hover {
     background-color: #0066cc;
     color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 102, 204, 0.2); 
 }
+
+
 
 /* Styling untuk timeline */
 .timeline {

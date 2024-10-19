@@ -453,6 +453,13 @@ footer {
         height: 50px;
     }
 
+    .card {
+        width: 100%; 
+    }
+
+    .card-container {
+        flex-direction: column; 
+    }
     nav ul li a {
         padding: 0.6em;
         font-size: 1em; 
@@ -471,3 +478,4 @@ footer {
         padding: 1em;
     }
 }
+

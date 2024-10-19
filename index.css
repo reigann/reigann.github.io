@@ -465,6 +465,29 @@ footer {
     }
 }
 
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    header, nav, section, aside, footer {
+        width: 100%; 
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    nav {
+        margin-bottom: 20px;
+    }
+
+    section {
+        margin-bottom: 20px;
+    }
+
+    aside {
+        margin-bottom: 20px;
+    }
+}
+
 @media screen and (max-width: 480px) {
     header h1 {
         font-size: 1.5em; 
